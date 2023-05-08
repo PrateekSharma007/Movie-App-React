@@ -14,7 +14,7 @@ function App() {
       <Header /> 
         <Routes>
           <Route index element = {<Home />} /> 
-
+          <Route path="/movie/:id" element={<Home />}/>
         </Routes>
       </Router>
     
